@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Formulario Usuario</title>
+</head>
+<body>
+    <form method="post" action="/proyecto/crearUsuario">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required><br>
+        <label>Apellido Paterno:</label>
+        <input type="text" name="apellidoPaterno" required><br>
+        <label>Apellido Materno:</label>
+        <input type="text" name="apellidoMaterno" required><br>
+        <label>Edad:</label>
+        <input type="number" name="edad" required><br>
+        <label>Correo:</label>
+        <input type="email" name="correo" required><br>
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>
+
